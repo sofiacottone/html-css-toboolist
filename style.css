@@ -22,3 +22,10 @@ header {
     display: inline-block;
     vertical-align: middle;
 }
+
+.container {
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: auto;
+
+}
