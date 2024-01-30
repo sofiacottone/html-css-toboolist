@@ -54,3 +54,42 @@ header {
 hr {
     border: 2px solid #f6f8f9;
 }
+
+.new-section {
+    padding: 20px 50px;
+}
+
+.new-section h3:before {
+    content: "\25BC";
+    font-size: 13px;
+}
+
+.task {
+    padding: 10px 0;
+}
+
+.done {
+    border: 2px solid #49ceb7;
+    color: #49ceb7;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.task-name {
+    display: inline-block;
+    padding: 5px;
+}
+
+.task-tag {
+    display: inline-block;
+    padding: 8px 13px;
+    border-radius: 15px;
+    background-color: #09a9ed;
+    color: #ffffff;
+}
