@@ -9,6 +9,7 @@ body {
     background-color: #f6f8f9;
 }
 
+/* header  */
 header {
     background-color: #ffffff;
     padding: 20px 10px;
@@ -23,11 +24,12 @@ header {
     vertical-align: middle;
 }
 
+/* /header  */
+/* top section  */
 .container {
     background-color: #ffffff;
     max-width: 800px;
     margin: 50px auto;
-
 }
 
 .buttons {
@@ -55,6 +57,7 @@ hr {
     border: 2px solid #f6f8f9;
 }
 
+/* /top section  */
 .new-section {
     padding: 20px 50px;
 }
@@ -65,9 +68,10 @@ hr {
 }
 
 .task {
-    padding: 10px 0;
+    padding: 10px 0 0 5px;
 }
 
+/* done + to-do circles  */
 .done {
     border: 2px solid #49ceb7;
     color: #49ceb7;
@@ -94,11 +98,14 @@ hr {
     display: inline-block;
 }
 
+/* /done + to-do circles  */
+
 .task-name {
     display: inline-block;
     padding: 5px;
 }
 
+/* side tags  */
 .task-tag {
     display: inline-block;
     padding: 8px 13px;
@@ -129,3 +136,5 @@ hr {
 .yellow-green-tag {
     background-color: #a3d116;
 }
+
+/* /side tags  */
