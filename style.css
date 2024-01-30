@@ -26,6 +26,31 @@ header {
 .container {
     background-color: #ffffff;
     max-width: 800px;
-    margin: auto;
+    margin: 50px auto;
 
+}
+
+.buttons {
+    padding: 20px 0 10px 50px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.task-button {
+    background-color: #14aaf5;
+    color: #ffffff;
+}
+
+.section-button {
+    background-color: transparent;
+    border: 1px solid #c4cbd0;
+    color: #c4cbd0;
+}
+
+hr {
+    border: 2px solid #f6f8f9;
 }
