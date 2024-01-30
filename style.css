@@ -81,6 +81,19 @@ hr {
     display: inline-block;
 }
 
+.to-do {
+    border: 2px solid #ff4242;
+    color: #ff4242;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+    font-weight: 700;
+    display: inline-block;
+}
+
 .task-name {
     display: inline-block;
     padding: 5px;
@@ -90,6 +103,21 @@ hr {
     display: inline-block;
     padding: 8px 13px;
     border-radius: 15px;
-    background-color: #09a9ed;
     color: #ffffff;
+}
+
+.blue-tag {
+    background-color: #09a9ed;
+}
+
+.purple-tag {
+    background-color: #ab5de6;
+}
+
+.green-tag {
+    background-color: #2cc6ab;
+}
+
+.orange-tag {
+    background-color: #ff9b00;
 }
